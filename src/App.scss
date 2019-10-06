@@ -1,0 +1,52 @@
+$colorNav : #3694c9;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: white;
+
+    nav {
+        width: 50%;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            text-decoration: none;
+            margin: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: $colorNav;
+        }
+    }
+}
+
+
+.main_container {
+    margin: 60%;
+    margin: 50px auto;
+    text-align: center;
+
+    p {
+        font-size: 20px;
+        color: #292828;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: $colorNav;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+}
